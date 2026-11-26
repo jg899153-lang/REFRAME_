@@ -2,6 +2,17 @@
   "framework": null,
   "buildCommand": "",
   "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/assets/antique-wood-door.png",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/svg+xml"
+        }
+      ]
+    }
+  ],
   "rewrites": [
     {
       "source": "/assets/:path*",
